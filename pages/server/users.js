@@ -21,11 +21,11 @@ const UserPage = (props) => {
           <h3 className="mt-3">SSR Server-side Rendering</h3>
     
           
-          <div className="alert alert-primary" role="alert">
+          {/* <div className="alert alert-primary" role="alert">
             <b>export async function getServerSideProps(){<br />
             }</b>
 
-          </div>
+          </div> */}
         </div>
       </div>
 
