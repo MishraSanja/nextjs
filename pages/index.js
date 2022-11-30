@@ -13,7 +13,7 @@ export default function Home() {
    <div className=''>
    <div className='Main-container mt-8'>
         {/* <h1> Next Js POC </h1> */}
-        <p>Welcome to the Next.js POC! </p>
+        <h5 className='mt-3 mb-3'>Welcome to the Next.js POC! </h5>
         <nav>
           <ul className='topics-list'>
             {/* <Link href="/"  >

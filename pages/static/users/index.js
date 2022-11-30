@@ -19,7 +19,7 @@ const UsersPage = (props) => {
                 </div>
                    
 
-<h5 className='mt-3 mb-3'>List of Users Data</h5>
+<h6 className='mt-3 mb-1'>List of Users Data</h6>
             <div className='custom-table mb-5 mb-2'>
                 <table className='  table-striped  table table-bordered text-center col-5'>
                 <thead className="thead-dark">

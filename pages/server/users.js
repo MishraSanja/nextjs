@@ -1,14 +1,15 @@
 
 import Link from 'next/link'
+import Footer from '../components/footer';
+import Header from '../components/header';
 
 const UserPage = (props) => {
   console.log("props", props);
   return (
 
     <div>
-      <header className="header-container">
-      <h5 className='text-white'>Logo</h5> 
-      </header>
+    
+      <Header></Header>
       <div className='container-sm col-10 mt-1'>
 
       <Link href="/">
@@ -16,11 +17,11 @@ const UserPage = (props) => {
                 </Link>
         {/* <div >{JSON.stringify(Users)} </div>  */}
 
-        <div className="jumbotron mb-5">
+        <div className="jumbotron mb-2">
 
-          <h3 className="mt-3">SSR Server-side Rendering</h3>
+          <h4 className="mt-3 mb-4">SSR Server-side Rendering</h4>
     
-          
+          <h6> List of Users</h6>
           {/* <div className="alert alert-primary" role="alert">
             <b>export async function getServerSideProps(){<br />
             }</b>
@@ -58,6 +59,7 @@ const UserPage = (props) => {
           </tbody>
         </table>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

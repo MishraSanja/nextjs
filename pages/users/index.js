@@ -38,10 +38,10 @@ const UserPage = () => {
                 </Link>
 
                 <div className="jumbotron mb-2">
-                    <h3 className="mt-3">CSR Client Side Data Fetching</h3>
-                    <p>Client-side data fetching is useful when your page doesn't require SEO indexing, when you don't need to pre-render your data, or when the content of your pages needs to update frequently. Unlike the server-side rendering APIs, you can use client-side data fetching at the component level.</p>
+                    <h4 className="mt-3">CSR Client Side Data Fetching</h4>
+                   
                 </div>
-                <h4> List of Users</h4>
+                <h5> List of Users</h5>
                 <div>
                 </div>
                 <table className=' table-striped table table-bordered text-center col-8'>
